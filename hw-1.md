@@ -132,7 +132,7 @@
 > 只能表示 1:n 联系，虽然系统有多种辅助手段 实现 n:m 联系，但较复杂，用户不易掌握;且由于层次顺序的严格和复杂，引起数据的查询和更新操作很复杂，因此应用程序的编写也比较复杂。
 
 ###网状模型
-![网络模型的实例](/week-1/pics/1.png )
+![网络模型的实例](/Users/fengli/Desktop/1.png )
 >特点是记录之间联系通过指针实现,m:n 关系容易实现
 
 >缺点是数据结构复杂和编程复杂
@@ -143,7 +143,7 @@
 
 **relational model 的主要特征是用二维表格表示实体集。与前两种 模型相比，关系模型数据结构简单，容易为初学者理解**
 
-![关系模型的实例](/week-1/pics/2.png)
+![关系模型的实例](/Users/fengli/Desktop/2.png)
 
 ###对象模型
 **对象数据库是面向对象概念与 数据库技术相结合的产物。**
@@ -153,16 +153,16 @@
 >对象数据库尚未达到关系数据库的普及程度。
 
 
-![好歹有个图。。](/week-1/pics/3.png )
+![好歹有个图。。](/Users/fengli/Desktop/3.png )
 
 
 ##数据库的体系结构
 
 ### 三级体系结构  五大要素    两级数据独立性
 > external , conceptual , internal ..通俗易懂..
-![术语](/week-1/pics/4.png )
+![术语](/Users/fengli/Desktop/4.png )
 
-![好图](/week-1/pics/6.png )
+![好图](/Users/fengli/Desktop/6.png )
 
 
 ###DBMS 
@@ -176,16 +176,16 @@
 
 
 终端mysql:
-![终端版mysql](/week-1/pics/7.png )
+![终端版mysql](/Users/fengli/Desktop/7.png )
 mysql-workbranch 不是很好用(/ω＼)   
-![](/week-1/pics/8.png )
+![](/Users/fengli/Desktop/8.png )
 直观的数据库保护，会阻止不带where使用update。。。
-![](/week-1/pics/9.png )
+![](/Users/fengli/Desktop/9.png )
 
 ##数据库系统
 >由数据库 ， 硬件 ， 软件 ， 管理员组成
 >**DBMS和磁盘间还有操作系统**
-![](/week-1/pics/11.png )
+![](/Users/fengli/Desktop/11.png )
 
 >DBS 有 centralized，client/server , parallel , distribured 等等种类 
 
